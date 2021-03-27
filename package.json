@@ -1,23 +1,35 @@
 {
-  "name": "imageuploader",
-  "version": "1.0.0",
-  "description": "",
-  "main": "server.js",
-  "scripts": {
-    "start": "nodemon server.js",
-    "client": "npm start --prefix client",
-    "dev": "concurrently \"npm run start\" \"npm run client\""
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "name": "file-handler",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
-    "concurrently": "^5.3.0",
-    "express": "^4.17.1",
-    "morgan": "^1.10.0",
-    "multer": "^1.4.2",
-    "nodemon": "^2.0.4",
-    "path": "^0.12.7",
-    "uuid": "^8.3.0"
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "axios": "^0.21.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-scripts": "3.4.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
